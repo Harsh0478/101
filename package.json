@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js && start chrome http://localhost:8080/books",
     "dev": "nodemon index.js"
   },
   "keywords": [],
